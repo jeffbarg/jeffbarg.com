@@ -1,7 +1,11 @@
 module.exports = {
   theme: {
-    extend: {}
+    extend: {
+      fontFamily: {
+        sans: ["Futura", "Helvetica", "Arial", "sans-serif"]
+      }
+    }
   },
   variants: {},
-  plugins: []
-}
+  plugins: [require("tailwindcss-transitions")()]
+};
