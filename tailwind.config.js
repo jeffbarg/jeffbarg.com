@@ -2,7 +2,12 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Futura", "Helvetica", "Arial", "sans-serif"]
+        display: ["GothamPro", "Helvetica", "Arial", "sans-serif"]
+      },
+      spacing: {
+        "72": "20rem",
+        "96": "24rem",
+        "128": "32rem"
       }
     }
   },
