@@ -18,22 +18,35 @@ a {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.icon {
+  @apply fill-current;
+  @apply outline-none;
+}
+.icon-link:focus {
+  @apply outline-none;
+}
+
+.icon-link:focus .github-icon,
 .github-icon:hover {
   /* color: #181717; */
   @apply text-purple-700;
 }
 
+.icon-link:focus .linkedin-icon,
 .linkedin-icon:hover {
   color: #0077b5;
 }
 
+.icon-link:focus .instagram-icon,
 .instagram-icon:hover {
   color: #e4405f;
 }
 
+.icon-link:focus .twitter-icon,
 .twitter-icon:hover {
   color: #1da1f2;
 }
+
 /* *::selection {
   @apply text-white;
   background-color: #72a5ff;
