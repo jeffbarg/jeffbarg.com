@@ -14,6 +14,22 @@ body {
   }
 }
 
+.github-icon:hover {
+  /* color: #181717; */
+  @apply text-purple-700;
+}
+
+.linkedin-icon:hover {
+  color: #0077b5;
+}
+
+.instagram-icon:hover {
+  color: #e4405f;
+}
+
+.twitter-icon:hover {
+  color: #1da1f2;
+}
 /* *::selection {
   @apply text-white;
   background-color: #72a5ff;
