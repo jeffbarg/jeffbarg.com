@@ -17,6 +17,7 @@
     "tailwindcss-transitions": "^2.1.0"
   },
   "devDependencies": {
+    "concurrently": "^5.0.0",
     "postcss-cli": "^6.1.3"
   }
 }

@@ -8,6 +8,13 @@ body {
   width: 100%;
 }
 
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1e1c1f;
+    @apply text-white;
+  }
+}
+
 @variants hover, focus {
   .raise {
     transform: scale(1.1) translateY(-5px);
@@ -24,6 +31,16 @@ a {
 }
 .icon-link:focus {
   @apply outline-none;
+}
+.icon-link:hover svg {
+  filter: drop-shadow(0px 5px 4px rgba(128, 128, 128, 0.15));
+  @apply transition-all;
+}
+
+@media (prefers-color-scheme: dark) {
+  .icon-link:hover svg {
+    filter: brightness(125%);
+  }
 }
 
 .icon-link:focus .github-icon,
